@@ -1,4 +1,4 @@
-# pushNotificationConcurrencyTestPlan
+# Push Notification Concurrency Test Plan
 
 This JMeter test plan is designed to test the performance of a push notifications system by simulating various scenarios of creating, updating, and deleting notifications. The tests focus on concurrency and parallel execution to measure how the system behaves under different loads.
 
