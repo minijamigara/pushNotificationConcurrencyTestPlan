@@ -16,6 +16,7 @@ Contributing
 Apache JMeter: Version 5.6.3 or later </br>
 Java: Version 8 or higher </br>
 JMeter Plugins: Install the Parallel Controller Plugin manually or via the JMeter Plugins Manager </br>
+Download the test data files and place them in the correct path </br>
 
 ## Installation
 Clone the repository:
@@ -23,6 +24,11 @@ Clone the repository:
 git clone https://github.com/minijamigara/push-notifications-test-plan.git
 cd push-notifications-test-plan
 ```
+Use this commands to execute tests via terminal
+```bash
+./jmeter -n -t /home/administrator/Performance/PushNotification/PushNotificationTestPlan.jmx -l /home/administrator/Performance/results.jtl
+```
+
 
 
 Launch JMeter </br>
